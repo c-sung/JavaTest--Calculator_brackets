@@ -1,7 +1,7 @@
 # JavaTest--Calculator_brackets
 Calculator.java, which is able to calculate "()".
 
-括號內只支援一次運算，由於構想大意了，尚未修復。     
+括號內只支援一次運算，由於構想大意了，尚未修復。            
 原因：做完括號內第一次運算後，remove ArrayList裡的 "(" , ")"   ，造成第二次算是判別失誤。     
 EX:(1+5)*3  ==> 
 
